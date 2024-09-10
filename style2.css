@@ -1,0 +1,93 @@
+/* General Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #121212;
+    color: #e0e0e0;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Styling */
+header {
+    background-color: #1f1f1f;
+    color: #ffa500;
+    text-align: left;
+    padding: 30px;
+    border-bottom: 3px solid #ffa500;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 3em;
+}
+
+header p {
+    font-weight: bold;
+}
+
+/* Navigation Menu */
+nav {
+    background-color: #202020;
+    padding: 15px;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    margin-right: 30px;
+}
+
+nav ul li a {
+    color: #ffa500;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Main Content */
+main {
+    padding: 40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+}
+
+article {
+    background-color: #1f1f1f;
+    padding: 20px;
+    border: 2px solid #ffa500;
+}
+
+h2 {
+    color: #ffa500;
+}
+
+/* Aside Styling */
+aside {
+    background-color: #303030;
+    padding: 15px;
+    border-left: 5px solid #ffa500;
+    margin-top: 15px;
+}
+
+/* Footer */
+footer {
+    background-color: #202020;
+    color: #ffa500;
+    text-align: center;
+    padding: 20px;
+}
+
+footer nav a {
+    color: #ffa500;
+    text-decoration: none;
+}
